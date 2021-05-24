@@ -1,18 +1,19 @@
 import React from "react";
-import Home from './routeComponents/Home.js';
+import Home from './components/routeComponents/Home.js';
+import About from './components/routeComponents/About.js';
 import Navigation from './components/Navigation.js';
 import Footer from './components/Footer.js';
-import './App.css';
+import {HashRouter, Route} from "react-router-dom";
+import "./"
 
 function App() {
   return (
-    <div>
+    <HashRouter>
       <Navigation/>
-
-      <Home/>
-
+      <Route path="/" exact={true} component={Home}/>
+      <Route path="/about" component={About}/>
       <Footer/>
-    </div>
+    </HashRouter>
   );
 }
 

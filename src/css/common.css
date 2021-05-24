@@ -1,0 +1,21 @@
+.grid-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    max-width: 75rem;
+    justify-content: center;
+}
+
+.grid-item {
+    padding-inline: 1rem;
+}
+
+.img-profile {
+    /* width: 15rem; */
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.img-social {
+    margin: 1rem;
+}
