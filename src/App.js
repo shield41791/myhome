@@ -4,7 +4,6 @@ import About from './components/routeComponents/About.js';
 import Navigation from './components/Navigation.js';
 import Footer from './components/Footer.js';
 import {HashRouter, Route} from "react-router-dom";
-import "./"
 
 function App() {
   return (
